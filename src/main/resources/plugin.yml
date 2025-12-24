@@ -1,0 +1,16 @@
+name: HauseMOTD
+version: 1.2
+main: com.HauseOwner.plugins.HauseMOTD.Main
+api-version: 1.20
+
+
+commands:
+  motd:
+    description: Add a MOTD message
+    usage: /motd <message>
+    permission: hausemotd.use
+
+permissions:
+  hausemotd.use:
+    description: Allow usage /motd
+    default: true
